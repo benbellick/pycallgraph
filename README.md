@@ -48,7 +48,7 @@ that generated them.
 
 Features
 --------
--   Support for Python 3.7+.
+-   Support for Python versions >=3.7 but <3.11 (due to a change in the `asyncio` API).
 -   Static visualizations of the call graph using Graphviz.
 -   Execute pycallgraph from the command line or import it in your code.
 -   Customisable colors. You can programatically set the colors based on
