@@ -21,7 +21,7 @@ url = 'https://pypi.python.org/simple'
 secondary = true
 
 [tool.poetry.dependencies]
-python = "^3.6.1"
+python = "^3.6.1, <3.11"
 memory_profiler="^0.58.0"
 psutil="^5.8.0"
 requests = "^2.25.1"
